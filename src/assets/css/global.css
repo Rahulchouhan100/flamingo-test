@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+.ff_Kaushan {
+  font-family: "Kaushan Script", cursive;
+}
+.ff_rubik {
+  font-family: "Rubik", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  font-size: 20px;
+  font-weight: 400;
+  color: #707070;
+  line-height: 30px;
+  position: relative;
+}
+.fs_14 {
+  font-size: 14px;
+}
+.fs_15 {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.fs_16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.fs_17 {
+  font-size: 17px;
+  line-height: 24px;
+}
+.fs_18 {
+  font-size: 18px;
+  line-height: 27px;
+}
+.fs_20 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.fs_22 {
+  font-size: 22px;
+  line-height: 33px;
+}
+.fs_23 {
+  font-size: 23px;
+  line-height: 33px;
+}
+.fs_24 {
+  font-size: 24px;
+  line-height: 36px;
+}
+.fs_25 {
+  font-size: 25px;
+  line-height: 36px;
+}
+.fs_26 {
+  font-size: 26px;
+  line-height: 39px;
+}
+.fs_28 {
+  font-size: 28px;
+}
+.fs_30 {
+  font-size: 30px;
+}
+.fs_32 {
+  font-size: 32px;
+}
+.fw_400 {
+  font-weight: 400;
+}
+.fw_500 {
+  font-weight: 500;
+}
+.fw_600 {
+  font-weight: 600;
+}
+.text_dark {
+  color: #000;
+}
+.color_89 {
+  color: #898989;
+}
+.color_66 {
+  color: #664653;
+}
+.color_10 {
+  color: #101010 !important;
+}
+.color_56 {
+  color: #565656;
+}
+.color_93 {
+  color: #939191;
+}
+.btn-default {
+  border-radius: 30px;
+  background: #ed257d;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.14);
+  color: #fff;
+  font-size: 17px;
+  max-width: fit-content;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  padding: 10px 40px;
+}
+.btn-primary {
+  border-radius: 4px;
+  border: 1px solid #ed257d;
+  background: #ed257d;
+}
+.btn-primary:hover {
+  background: #f83a8d;
+  border: 1px solid #ed257d;
+}
+.w_fit {
+  max-width: fit-content !important;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2d121e;
+  text-align: center;
+  margin-bottom: 35px;
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1382px;
+  }
+}
+@media (max-width: 991px) {
+  .container {
+    max-width: 100%;
+  }
+  .left_side_bar.col-md-3,
+  .content_section.col-md-9 {
+    width: 100% !important;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.custom_redio [type="radio"]:checked,
+.custom_redio [type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+.custom_redio [type="radio"]:checked + label,
+.custom_redio [type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666;
+  color: #939191;
+  font-family: Rubik;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.custom_redio [type="radio"]:checked + label:before,
+.custom_redio [type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #9391914d;
+  border-radius: 100%;
+  background: #fff;
+}
+.custom_redio [type="radio"]:checked + label:after,
+.custom_redio [type="radio"]:not(:checked) + label:after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #ed257d;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 100%;
+  transition: all 0.2s ease;
+}
+
+.custom_redio [type="radio"]:checked + label:before {
+  border-color: #ed257d;
+}
+.custom_redio [type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.custom_redio [type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.left_side_bar.col-md-3 {
+  width: 29%;
+}
+.content_section.col-md-9 {
+  width: 71%;
+}
+
+.colorRed {
+  color: red !important;
+}
+
+.green {
+  color: green !important;
+}
+ul li {
+  list-style: none;
+}
+
+.max_wf {
+  max-width: fit-content;
+}

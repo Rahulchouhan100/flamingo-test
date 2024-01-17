@@ -1,0 +1,71 @@
+.review_rating_section h4 {
+  color: #2d121e;
+  font-family: Rubik;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+.review_rating_section .card {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.22);
+}
+.go_ratting {
+  border-radius: 10px;
+  background: #5dcd41;
+  padding: 15px;
+  color: #fff;
+  text-align: center;
+}
+.go_ratting p {
+  font-size: 24px;
+  margin: 3px 0;
+}
+.go_ratting h3 {
+  font-size: 32px;
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.star_ratting .progress {
+  width: 100%;
+}
+.star_ratting ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+.star_ratting ul li span {
+  min-width: 80px;
+}
+.star_ratting ul li span.total {
+  text-align: right;
+}
+
+.progress-bar,
+.star_ratting .progress {
+  height: 10px;
+}
+.star_ratting .five .progress-bar {
+  background: #6f8851;
+}
+
+.star_ratting .four .progress-bar {
+  background: #518884;
+}
+
+.star_ratting .three .progress-bar {
+  background: #5d8cd4;
+}
+
+.star_ratting .two .progress-bar {
+  background: #c85ef9;
+}
+
+.star_ratting .one .progress-bar {
+  background: #ff569d;
+}

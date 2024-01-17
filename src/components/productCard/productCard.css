@@ -1,0 +1,108 @@
+.product_card .card-title {
+  color: #ed257d;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+}
+.product_card .card-title span.onwards {
+  color: rgba(86, 86, 86, 0.7);
+}
+.product_card ul {
+  padding: 0;
+}
+
+.product_card ul li {
+  list-style: none;
+  display: flex;
+}
+.hotel_name span,
+.location_name span {
+  color: #101010;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.location_name span {
+  color: #565656;
+  font-size: 15px;
+  font-weight: 400;
+}
+.product_card p.card-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box {
+  border-radius: 4px;
+  padding: 0 6px;
+  border: 1px solid rgba(147, 145, 145, 0.4);
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.total_rating {
+  color: rgba(86, 86, 86, 0.6);
+  font-family: Rubik;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  position: relative;
+  top: -3px;
+}
+.rating_count {
+  color: #ffb800;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.product_card .hr {
+  background: rgba(147, 145, 145, 0.4);
+  margin: 2px 0;
+  border: 0;
+}
+.product_card .btn {
+  color: #565656;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  border-radius: 4px;
+  background: rgba(228, 228, 228, 0.6);
+}
+
+.available_beds p {
+  color: #0daf00;
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.product_card.card {
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.1);
+  border: 0 !important;
+}
+
+.select_form {
+  width: 100%;
+}

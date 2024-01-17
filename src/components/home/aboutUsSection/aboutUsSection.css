@@ -1,0 +1,35 @@
+.about_us_section h4 {
+  color: #2d121e;
+  font-family: Rubik;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.about_us_section .img1 {
+  text-align: right;
+}
+.about_us_section .img_sec {
+  position: relative;
+}
+
+.about_us_section .img_sec .img2 {
+  position: absolute;
+  bottom: -140px;
+  left: 50px;
+  border: 10px solid #fff;
+  border-radius: 30px;
+}
+.about_us_section .img1 img {
+  border-radius: 10px;
+  overflow: hidden;
+}
+section.about_us_section {
+  margin-bottom: 100px;
+}
+@media (max-width: 1199px) {
+  .about_us_section .img_sec .img2 {
+    left: -30px;
+  }
+}

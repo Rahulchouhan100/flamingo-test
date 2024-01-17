@@ -1,0 +1,39 @@
+.add_property_section .img_box {
+  position: relative;
+}
+
+.add_property_section .img_box .caption {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 25px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.registration_box {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.16);
+  padding: 19px;
+}
+.registration_box .img {
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 3px 18px 0px rgba(0, 0, 0, 0.15);
+  max-width: fit-content;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.registration_box h4 {
+  color: #000;
+  font-family: Blinker;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

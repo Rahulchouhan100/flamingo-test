@@ -1,0 +1,25 @@
+.management h4 {
+  color: #f5539b;
+  font-family: Rubik;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 10px;
+  background: rgba(255, 221, 236, 0.65);
+  padding: 20px 30px;
+  max-width: 570px;
+  margin-bottom: 20px;
+}
+.management p {
+  color: #664653;
+  font-family: Rubik;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.88px;
+}
+.management {
+  background: rgba(237, 237, 237, 0.7);
+}

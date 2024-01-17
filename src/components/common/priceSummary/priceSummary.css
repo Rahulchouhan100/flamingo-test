@@ -1,0 +1,14 @@
+.PriceSummary .card {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.22);
+}
+
+.PriceSummary .card h3 {
+  border-bottom: 1px solid #d9d9d999;
+  margin-bottom: 0;
+}
+
+.PriceSummary .card .border_b1 {
+  border-bottom: 1px solid #d9d9d999;
+}

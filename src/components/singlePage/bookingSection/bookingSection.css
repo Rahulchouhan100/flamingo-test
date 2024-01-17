@@ -1,0 +1,90 @@
+.booking_section {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.22);
+  padding: 20px;
+}
+.booking_section ul li {
+  list-style: none;
+}
+
+.booking_section ul {
+  padding: 0;
+}
+.booking_section .price {
+  color: #ed257d;
+}
+.booking_section h3 {
+  color: rgba(86, 86, 86, 0.7);
+}
+
+ul.facility {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul.facility li {
+  background-color: #e4e4e499;
+  color: #565656;
+  font-size: 14px;
+  width: calc(33.33% - 10px);
+  margin-right: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background: rgba(228, 228, 228, 0.6);
+}
+.booking_section .top {
+  max-width: fit-content;
+  border-radius: 4px;
+  border: 1px solid rgba(147, 145, 145, 0.4);
+  background: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 5px 5px;
+}
+span.rating_count {
+  color: #ffb800;
+  font-size: 14px;
+  text-align: center;
+}
+
+.ratting {
+  text-align: center;
+}
+
+.booking_section span.rating_count {
+  color: #ffb800;
+  font-size: 14px;
+  text-align: center;
+}
+
+.booking_section .ratting {
+  text-align: center;
+}
+
+.booking_section span.total_rate {
+  color: rgba(86, 86, 86, 0.6);
+  font-size: 10px;
+  line-height: 24px;
+}
+
+.booking_section .border-bottom {
+  line-height: 20px;
+  padding-bottom: 4px;
+}
+
+.booking_section .bottom h4 {
+  color: #0daf00;
+  font-family: Rubik;
+  font-size: 17px;
+  text-align: center;
+}
+
+.booking_section .right_sec {
+  max-width: 172px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

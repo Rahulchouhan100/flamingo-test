@@ -1,0 +1,47 @@
+.redio_sec label {
+  display: block;
+  margin-bottom: 5px;
+}
+.redio_sec > label {
+  color: #2d121e;
+  font-family: Rubik;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.redio_outer .form-group {
+  margin-right: 20px;
+}
+.list_full .redio_outer {
+  flex-wrap: wrap;
+}
+
+.list_full .redio_outer .form-group {
+  width: 100%;
+  margin: 0;
+}
+
+.radio_right [type="radio"]:not(:checked) + label:before {
+  left: unset;
+  right: 0;
+}
+
+.radio_right .form-group label {
+  width: 100%;
+}
+.radio_right [type="radio"]:checked + label:before,
+.radio_right [type="radio"]:not(:checked) + label:before {
+  left: unset !important;
+  right: 0;
+}
+.radio_right [type="radio"]:checked + label:after,
+.radio_right [type="radio"]:not(:checked) + label:after {
+  left: unset !important;
+  right: 5px;
+}
+
+.radio_right [type="radio"]:checked + label,
+.radio_right [type="radio"]:not(:checked) + label {
+  padding-left: 0 !important;
+}

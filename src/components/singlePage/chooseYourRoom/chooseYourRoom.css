@@ -1,0 +1,37 @@
+.choose_your_room .card {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.choose_your_room .card h4.heading {
+  border-radius: 10px 10px 0px 0px;
+  background: #65c84d;
+  padding: 10.4px 15px;
+}
+.choose_your_room .card .card-body img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.choose_your_room .card .card-body {
+  border-bottom: 2px solid #d9d9d9b2;
+  margin-bottom: 10px;
+}
+
+.choose_your_room span.strick {
+  text-decoration: line-through;
+  color: rgba(147, 145, 145, 0.6);
+}
+.select_btn {
+  color: #65c84d;
+  font-family: Rubik;
+  font-size: 16px;
+  border: 1px solid;
+  background: transparent;
+  padding: 1.5px 18px;
+  min-width: 107px;
+  border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+/* .site_mobile_header {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .site_desktop_header {
+    display: none;
+  }
+  .site_mobile_header {
+    display: block;
+  }
+} */

@@ -1,0 +1,11 @@
+.order_unorder ul li {
+  list-style: lower-alpha;
+}
+.privacyPolicy ol > li {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 15px;
+}
+.privacyPolicy h4 {
+  color: #000;
+}

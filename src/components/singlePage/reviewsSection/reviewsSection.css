@@ -1,0 +1,44 @@
+.reviews_section .card {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.22);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.reviews_section .fl_name span {
+  background: #d9d9d980;
+  border-radius: 50%;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.review h4 span {
+  color: #939191;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.reviewImg ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reviewImg ul li {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.review_top .review_rate {
+  border-radius: 4px;
+  background: #649cf1;
+  color: #fff;
+  width: 55px;
+  text-align: center;
+}

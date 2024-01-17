@@ -1,0 +1,119 @@
+.range_slider .slider {
+  position: relative;
+  width: 100%;
+}
+
+.range_slider .slider__track,
+.range_slider .slider__range,
+.range_slider .slider__left-value,
+.range_slider .slider__right-value {
+  position: absolute;
+}
+
+.range_slider .slider__track,
+.range_slider .slider__range {
+  border-radius: 3px;
+  height: 13px;
+}
+
+.range_slider .slider__track {
+  background-color: #ced4da;
+  width: 100%;
+  z-index: 1;
+}
+
+.range_slider .slider__range {
+  background-color: #ed257d;
+  z-index: 2;
+}
+
+.range_slider .slider__left-value,
+.range_slider .slider__right-value {
+  color: #dee2e6;
+  font-size: 12px;
+  margin-top: 13px;
+}
+
+.range_slider .slider__left-value {
+  left: 6px;
+}
+
+.range_slider .slider__right-value {
+  right: -4px;
+}
+.range_sec > label {
+  color: #2d121e;
+  font-family: Rubik;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: block;
+  margin-bottom: 20px;
+}
+/* Removing the default appearance */
+.thumb,
+.thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.range_slider {
+  margin-bottom: 40px;
+  position: relative;
+}
+.range_slider input {
+  border: 0;
+  top: 4px;
+}
+input.thumb.thumb--left {
+  left: -2px;
+}
+.range_sec {
+  margin-bottom: 10px;
+}
+input.thumb.thumb--right {
+  right: -2px;
+}
+.thumb {
+  pointer-events: none;
+  position: absolute;
+  height: 0;
+  width: 100%;
+  outline: none;
+}
+
+.thumb--left {
+  z-index: 3;
+}
+
+.thumb--right {
+  z-index: 4;
+}
+
+/* For Chrome browsers */
+.thumb::-webkit-slider-thumb {
+  background-color: #f1f5f7;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #ced4da;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+}
+
+/* For Firefox browsers */
+.thumb::-moz-range-thumb {
+  background-color: #f1f5f7;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 1px 1px #ced4da;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 4px;
+  pointer-events: all;
+  position: relative;
+}
